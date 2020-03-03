@@ -4,12 +4,10 @@ public class emp {
     private int id;
     private String name;
     private String email;
-//    private String address;
     private String telephone;
     public emp(String name, String email, String address, String telephone) {
 		this.name = name;
 		this.email = email;
-//		this.address = address;
 		this.telephone = telephone;
 	}
 	public emp() {
@@ -33,12 +31,6 @@ public class emp {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-//	public String getAddress() {
-//		return address;
-//	}
-//	public void setAddress(String address) {
-//		this.address = address;
-//	}
 	public String getTelephone() {
 		return telephone;
 	}
