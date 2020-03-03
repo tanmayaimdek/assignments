@@ -20,12 +20,6 @@ public class HomeController {
 	
 	@Autowired
 	empDao empDao;
-
-//	@RequestMapping(value = "/")
-//	public String test(HttpServletResponse response) throws IOException {
-//		return "home";
-//	}
-
 	
 	@RequestMapping(value = "/")
 	public ModelAndView listContact(ModelAndView model) throws IOException {
